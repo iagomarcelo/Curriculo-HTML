@@ -1,0 +1,336 @@
+/* CONFIGS GERAIS */
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #babcc9;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+/* BOX DO CURRÍCULO */
+
+.box_curriculo {
+    display: flex;
+    width: 1100px;
+    height: 1400px;
+    background-color: white;
+    margin: 50px auto;
+    position: relative;
+}
+
+.box_curriculo .barra_lateral {
+    position: absolute;
+    width: 180px;
+    height: 360px;
+    background-color: #b1b1b1;
+    top: calc(50% - 215px);
+    left: 0;
+}
+
+
+/* CONTEÚDO DIREITA */
+
+.box_curriculo .conteudo_direita {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.box_curriculo .conteudo_direita > header,
+.box .box_curriculo .conteudo_direita .conteudo_direita_box1 .conteudo_direita_img,
+.box .box_curriculo .conteudo_direita .conteudo_direita_box1 .conteudo_direita_img > img {
+    display: flex;
+}
+
+
+/* CONTEÚDO DIREITA -  IMAGEM */
+
+.box_curriculo .conteudo_direita .conteudo_direita_box1 .conteudo_direita_img > img {
+    width: 100%;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_box1 {
+    flex-basis: 30%;
+}
+
+
+/* CONTEÚDO DIREITA - DIV PRINCIPAL*/
+
+.box_curriculo .conteudo_direita .conteudo_direita_main {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    align-content: space-between;
+    background-color: black;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_title h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_title h2 {
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main h1,
+.box .box_curriculo .conteudo_direita .conteudo_direita_main h2,
+.box .box_curriculo .conteudo_direita .conteudo_direita_main li {
+    color: white;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_skills > h1 {
+    font-size: 1.4em;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_skills ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_skills ul li .bar {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    background-color: #111112;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_skills ul li .bar_full {
+    display: flex;
+    width: 70px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_skills ul li .bar_min {
+    display: flex;
+    width: 70px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_skills ul li .bar_min_mid {
+    display: flex;
+    width: 95px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_skills ul li .bar_mid {
+    display: flex;
+    width: 125px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.box .box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_skills ul li .bar_full {
+    display: flex;
+    width: 160px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_main .conteudo_direita_main_skills ul li .bar_full_last {
+    display: flex;
+    width: 150px;
+    height: 8px;
+    background-color: #fff;
+}
+
+
+/* CONTEÚDO DIREITA - DIV RODAPÉ*/
+
+.box_curriculo .conteudo_direita .conteudo_direita_footer {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #143db1;
+    padding: 0 40px;
+    color: #FFF;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_footer > article {
+    display: flex;
+    flex-direction: column;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_footer > article > h1 {
+    font-size: 1.2em;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_footer > article ul,
+.box .box_curriculo .conteudo_direita .conteudo_direita_main > article ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_footer > article ul li,
+.box .box_curriculo .conteudo_direita .conteudo_direita_main > article ul li {
+    list-style: none;
+}
+
+.box_curriculo .conteudo_direita .conteudo_direita_footer > article ul li {
+    width: 50%;
+}
+
+
+/* CONTEÚDO ESQUERDA */
+
+.box_curriculo .conteudo_esquerda {
+    display: flex;
+    width: 65%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_cv,
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_education,
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_experience {
+    display: flex;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_cv > article > h2,
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_education .conteudo_esquerda_education_article > article > h2,
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_experience .conteudo_esquerda_experience_article > article > h2 {
+    font-size: 1.4em;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_education .conteudo_esquerda_education_article > article > h2,
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_experience .conteudo_esquerda_experience_article > article > h2 {
+    color: #1140b4;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_education .conteudo_esquerda_education_article > article > h3,
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_experience .conteudo_esquerda_experience_article > article > h3 {
+    font-size: 1.4em;
+    color: #1140b4;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_education > div > h1,
+.box .box_curriculo .conteudo_esquerda .conteudo_esquerda_experience > div > h1 {
+    transform: rotate(-90deg);
+    font-size: 2.8em;
+    position: relative;
+        z-index: 150;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_education > div > h1:after{
+    position: absolute;
+    left: -195px;
+    bottom: 25px;
+    content: '';
+    height: 1px;
+    width: 170px;
+    background-color: black;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_experience > div > h1:after{
+    position: absolute;
+    left: -405px;
+    bottom: 25px;
+    content: '';
+    height: 1px;
+    width: 350px;
+    background-color: black;
+}
+
+
+/* CONTEÚDO ESQUERDA - CV*/
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_cv {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 20px 20px 20px 40px;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_cv .conteudo_esquerda_cv_title{
+    display: flex;
+    width: 100%;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_cv .conteudo_esquerda_cv_title .conteudo_esquerda_cv_title_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    background-color: #1140b4;
+    border-radius: 50%;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_cv .conteudo_esquerda_cv_title .conteudo_esquerda_cv_title_content > h1 {
+    display: flex;
+    font-size: 2   .5em;
+    color: #FFF;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_cv .conteudo_esquerda_cv_article > article {
+    padding: 0 40px 0 25px;
+}
+
+
+/* CONTEÚDO ESQUERDA - EDUCATION */
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_education {
+    padding: 20px 0;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_education .conteudo_esquerda_education_title {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_education .conteudo_esquerda_education_article > article {
+    padding: 0 40px 10px 70px;
+}
+
+
+/* CONTEÚDO ESQUERDA - EXPERIENCE */
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_experience {
+    background-color: #d9d9d9;
+    padding: 20px 0;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_experience .conteudo_esquerda_experience_title {
+    z-index: 99;
+    margin-top: 20px;
+}
+
+.box_curriculo .conteudo_esquerda .conteudo_esquerda_experience .conteudo_esquerda_experience_article > article {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px 10px 60px;
+}
+
+
+@media print {
+    .box_curriculo {
+    display: flex;
+    width: 1100px;
+    height: 1556px;
+    margin: 0 auto;
+}
+}
